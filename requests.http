@@ -12,8 +12,8 @@ POST http://localhost:8080/api/v1/software-engineers
 Content-Type: application/json
 
 {
-  "name": "Jane Doe",
-  "techStack": "Hmtl, Css, Javascript"
+  "name": "Alex Doe",
+  "techStack": "Java, Spring boot, Javascript"
 }
 
 ### UPDATE FULL DATA (PUT)
@@ -30,7 +30,7 @@ PATCH http://localhost:8080/api/v1/software-engineers/2
 Content-Type: application/json
 
 {
-  "techStack": "Javascript, Docker, AWS2, Team Lead"
+  "techStack": "Javascript, Docker, AWS"
 }
 
 ### DELETE DATA

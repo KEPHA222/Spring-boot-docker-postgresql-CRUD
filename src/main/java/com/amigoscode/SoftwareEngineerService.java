@@ -32,7 +32,11 @@ public class SoftwareEngineerService  {
         SoftwareEngineer existingEngineer = softwareEngineerRepository.findById(id)
                 .orElseThrow(() -> new IllegalStateException("Software Engineer with id " + id + " not found"));
 
+<<<<<<< HEAD
         // Update only the fields we want to allow updating
+=======
+        // Update only fields wanted to be updating
+>>>>>>> 6f80441 (This is first commit)
         existingEngineer.setName(updatedEngineer.getName());
         existingEngineer.setTechStack(updatedEngineer.getTechStack());
 
