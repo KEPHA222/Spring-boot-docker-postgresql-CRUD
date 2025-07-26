@@ -1,0 +1,37 @@
+### GET request to example server
+GET http://localhost:8080
+
+### GET ALL DATA
+GET http://localhost:8080/api/v1/software-engineers
+
+### GET ONE DATA
+GET http://localhost:8080/api/v1/software-engineers/2
+
+### POST DATA
+POST http://localhost:8080/api/v1/software-engineers
+Content-Type: application/json
+
+{
+  "name": "Jane Doe",
+  "techStack": "Hmtl, Css, Javascript"
+}
+
+### UPDATE FULL DATA (PUT)
+PUT http://localhost:8080/api/v1/software-engineers/2
+Content-Type: application/json
+
+{
+  "name": "Motari Updated Kepha",
+  "techStack": "Java, Spring Boot, Docker, Kubernetes, Angular"
+}
+
+### UPDATE PARTIAL DATA (PATCH)
+PATCH http://localhost:8080/api/v1/software-engineers/2
+Content-Type: application/json
+
+{
+  "techStack": "Javascript, Docker, AWS2, Team Lead"
+}
+
+### DELETE DATA
+DELETE http://localhost:8080/api/v1/software-engineers/3
