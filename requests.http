@@ -21,7 +21,7 @@ PUT http://localhost:8080/api/v1/software-engineers/2
 Content-Type: application/json
 
 {
-  "name": "Motari Updated Kepha",
+  "name": "Motari Updated",
   "techStack": "Java, Spring Boot, Docker, Kubernetes, Angular"
 }
 
